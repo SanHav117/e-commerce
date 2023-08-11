@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 245, 237);
+}
+
+/* PRODUCT DETAILS */
+
+.productDetails{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+}
+
+/* PRODUCT DETAILS LHS */
+
+.productDetailsImg{
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    height:inherit;
+    width: 50%;
+}
+.productDetailsImg > img{
+    margin-top: 2.5%;
+    max-height: 85%;
+    width: 95%;
+
+/* PRODUCT DETAILS RHS */
+
+}
+.productDetailsInfo{
+    display: flex;
+    flex-direction: column;
+    height:inherit;
+    width: 50%;
+}
+.productDetailsInfo > span {
+    margin-block: 7px;
+    margin-inline: 1.8rem;
+}
+.productDetailsPrice{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.displayPrice{
+    font-size: 14px;
+    font-weight:bold;
+}
+.crossedPrice{
+    font-size: 14px;
+    color: grey;
+    text-decoration: line-through;
+}
+.priceDiscount{
+    font-size: 12px;
+    color: rgb(224, 168, 14);
+    font-weight: bold;
+}
+.cartAddLess{
+    height: 31px;
+    width: 31px;
+    font-weight: bold;
+    padding: auto;
+    font-size: 1rem;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+}
+.noInCart{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-inline: 10px;
+}
+.addToCart{
+    height: 31px;
+    width: 80%;
+    background-color: transparent;
+    outline: none;
+    color: rgb(212, 168, 20);
+    font-weight: bolder;
+    border: 2px solid rgb(212, 168, 20);
+    border-radius: 3px;
+    float: right;
+}
+.Label{
+    font-size: 10px;
+    line-height: 300%;
+}
+.labelDescription{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    color: white;
+    background-color:rgb(0, 81, 105);
+    padding: 8px 6px;
+    border-radius: 3px;
+}
+
+/* PRODUCT DESCRIPTION */
+
+.productDescription{
+    margin-bottom: 8rem;
+    margin-inline: 2.5%;
+}
+.Description{
+    text-align: justify;
+    font-size: 11px;
+}
